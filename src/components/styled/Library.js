@@ -58,7 +58,7 @@ export const HeaderText = styled.h1`
     margin-bottom: 197px;
 `
 
-export const Carousel = styled.div`
+export const Carousel = styled.section`
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -167,4 +167,82 @@ export const Arrow = styled.button`
     background: transparent;
     border: none;
     display: inline;
+`
+
+export const AboutSection = styled.section`
+    display: flex;
+    width: 1460px;
+    justify-content: space-between;
+    margin-bottom: -150px;
+`
+
+export const LargeText = styled.h1`
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 328px;
+    font-weight: "black";
+    line-height: 295px;
+    height: 2000px;
+`
+
+export const Content = styled.div`
+    width: 711px;
+    padding-top: 128px;
+`
+
+export const AboutTitle = styled.h1`
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+`
+
+export const ProfileText = styled.p`
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 157px;
+`
+export const SkillsText = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 157px;
+
+    > ul {
+        list-style: none;
+    }
+`
+export const Skill = styled.li`
+    font-size: 24px;
+    margin-bottom: 10px;
+`
+
+export const InterestsText = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+
+    > ul {
+        list-style: none;
+    }
+`
+
+export const Category = styled.li`
+    text-transform: uppercase;
+    margin-bottom: 10px;
+`
+
+export const Interest = styled.li`
+    margin-bottom: 10px;
+`
+
+export const Contact = styled(Button)`
+    border: 1px solid black;
+    width: 110px;
+    padding: 11px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
 `
