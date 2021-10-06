@@ -50,3 +50,10 @@ export const IconMenu = styled.ul`
     align-self: center;
     width: 176px;
 `
+
+export const HeaderText = styled.h1`
+    font-size: var(--header-text);
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 197px;
+`
