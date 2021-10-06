@@ -13,13 +13,18 @@ body {
 
 :root {
     --body-text: 16px;
+    --border-color: rgba(0, 0, 0, 0.15);
+    --carousel-color: rgba(0, 0, 0, 0.03);
+    --description-text: 24px;
+    --description-height: 30px;
     --font-color: #000;
+    --header-text: 72px;
     --icon-color: #000;
     --icon-size: 26px;
-    --typeface: "sans serif";
+    --typeface: Roboto, sans-serif;
 }
 
-p, h1, ul, li, a {
+p, h1, ul, li, a, button {
     font-family: var(--typeface);
     text-decoration: none;
     color: var(--font-color);
