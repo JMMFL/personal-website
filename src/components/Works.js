@@ -13,7 +13,7 @@ function Works({projects}) {
     
 
     return (
-        <Carousel>
+        <Carousel id="works">
             <ProjectInfo>
                 <ProjectNav>
                     <List>

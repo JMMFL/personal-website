@@ -4,7 +4,7 @@ import { AboutSection, AboutTitle, Category, Contact, Content, Interest, Interes
 function About({profile, skills, interests}) {
     return (
         <>
-            <AboutSection>
+            <AboutSection id="about">
                 <LargeText>Code of the<br></br>Developer</LargeText>
                 <Content>
                     <AboutTitle>Profile</AboutTitle>
