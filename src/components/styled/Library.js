@@ -36,7 +36,7 @@ export const EmblemIcon = styled.div`
 `
 
 export const EmblemText = styled.h1`
-    font-family: var(--typeface);
+    font-family: var(--body-font);
     font-size: var(--body-text);
     font-weight: normal;
     text-align: center;
@@ -53,9 +53,19 @@ export const IconMenu = styled.ul`
 
 export const HeaderText = styled.h1`
     font-size: var(--header-text);
+    font-family: var(--head-font);
     text-align: center;
     font-weight: normal;
-    margin-bottom: 197px;
+    margin-bottom: 85px;
+
+    ::after {
+        content: "🍁";
+        font-size: 28px;
+        position: relative;
+        background: white;
+        top: -141px;
+        left: 220.5px;
+    }
 `
 
 export const Carousel = styled.section`
@@ -172,14 +182,17 @@ export const Arrow = styled.button`
 export const AboutSection = styled.section`
     display: flex;
     width: 1460px;
+    height: 1690px;
     justify-content: space-between;
-    margin-bottom: -150px;
+    margin-bottom: 98px;
 `
 
 export const LargeText = styled.h1`
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    font-size: 328px;
+    font-size: 339px;
+    text-transform: lowercase;
+    font-family: var(--head-font);
     font-weight: "black";
     line-height: 295px;
     height: 2000px;

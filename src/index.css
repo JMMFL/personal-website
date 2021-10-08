@@ -18,14 +18,15 @@ body {
     --description-text: 24px;
     --description-height: 30px;
     --font-color: #000;
+    --head-font: 'Playfair Display', serif;;
     --header-text: 72px;
     --icon-color: #000;
     --icon-size: 26px;
-    --typeface: Roboto, sans-serif;
+    --body-font: Roboto, sans-serif;
 }
 
 p, h1, ul, li, a, button {
-    font-family: var(--typeface);
+    font-family: var(--body-font);
     text-decoration: none;
     color: var(--font-color);
 }
