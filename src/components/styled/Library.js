@@ -21,7 +21,6 @@ export const Menu = styled.nav`
     @media screen and (min-width: 1900px) {
         width: 100%;
     }
-}
 `
 
 export const NavMenu = styled.ul`
@@ -173,8 +172,13 @@ export const ProjectPreview = styled.div`
     justify-content: end;
     align-self: center;
     height: 737px;
-    background: green;
+    background: var(--background-color);
+    background-image: url(${props => props.image});
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 0;
     border-radius: 16px;
+    
 
     @media screen and (min-width: 1200px) {
         width: 65%;
