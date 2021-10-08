@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Carousel, ProjectDescription, ProjectInfo, List, Description, DescriptionTitle, ProjectTopics, Input, Label, ProjectPreview, DemoButton, MoreButton, ProjectNav, Arrow, NavArrows } from "./styled/Library";
+import { Carousel, ProjectDescription, ProjectInfo, List, Description, DescriptionTitle, ProjectTopics, Input, Label, ProjectPreview, DemoButton, MoreButton, ProjectNav, Arrow, NavArrows, SecondaryButton } from "./styled/Library";
 import { BsLightningFill } from "react-icons/bs";
 import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos } from "react-icons/md";
 import { GoCode } from "react-icons/go";
@@ -52,7 +52,7 @@ function Works({projects}) {
             <ProjectPreview>
                 <div style={{alignSelf: "start"}}>
                     <DemoButton href={project.link} target="_blank" rel="noreferrer">Demo<BsLightningFill size={15} style={{position: "relative", top: "3px", left: "3px"}} /></DemoButton>
-                    <MoreButton href={project.github} target="_blank" rel="noreferrer">More<GoCode size={15} style={{position: "relative", top: "2px", left: "4px"}} /></MoreButton>
+                    <MoreButton href={project.github} target="_blank" rel="noreferrer">Info<GoCode size={15} style={{position: "relative", top: "2px", left: "4px"}} /></MoreButton>
                 </div>
             </ProjectPreview>
         </Carousel>

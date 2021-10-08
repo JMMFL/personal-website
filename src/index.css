@@ -8,23 +8,29 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    margin: 0 auto;
-    padding-top: 93px;
-}
-
 :root {
+    --background-color: #000;
     --body-text: 16px;
-    --border-color: rgba(0, 0, 0, 0.15);
-    --carousel-color: rgba(0, 0, 0, 0.03);
+    --border-color: rgba(256, 256, 256, 0.15);
+    --button-background: #fedc36;
+    --button-border: #fef08a;
+    --button-stroke: 2px;
+    --carousel-color: rgba(256, 256, 256, 0.03);
     --description-text: 24px;
     --description-height: 30px;
-    --font-color: #000;
+    --emblem-color: #8093f1;
+    --font-color: #fff;
     --head-font: 'Playfair Display', serif;;
     --header-text: 72px;
-    --icon-color: #000;
+    --icon-color: #fff;
     --icon-size: 26px;
     --body-font: Roboto, sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0 auto;
+    padding-top: 93px;
 }
 
 p, h1, ul, li, a, button {

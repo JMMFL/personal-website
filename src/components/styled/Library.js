@@ -49,8 +49,8 @@ export const EmblemIcon = styled.h1`
     width: auto;
     border-radius: 25px;
     padding: 10px;
-    background: black;
-    color: white;
+    color: var(--backgroud-color);
+    background: var(--emblem-color);
     margin: 0 auto;
     margin-bottom: 15px;
 `
@@ -82,7 +82,7 @@ export const HeaderText = styled.h1`
         content: "🍁";
         font-size: 28px;
         position: relative;
-        background: white;
+        background: var(--background-color);
         top: -141px;
         left: 220.5px;
     }
@@ -111,6 +111,7 @@ export const Carousel = styled.section`
         width: 1589px;
     }
 `
+
 export const ProjectInfo = styled.div`
     align-self: center;
     width: 337px;
@@ -200,17 +201,23 @@ export const Button = styled.a`
     padding: 10px;
 `
 
-export const DemoButton = styled(Button)`
-    background: white;
-    color: black;
+export const PrimaryButton = styled(Button)`
+    background: var(--button-background);
+    color: var(--background-color);
+`
+
+export const SecondaryButton = styled(Button)`
+    background: transparent;
+    border: var(--button-stroke) solid var(--button-border);
+`
+
+export const DemoButton = styled(PrimaryButton)`
     margin-bottom: 10px;
 `
 
-export const MoreButton = styled(Button)`
-    background: transparent;
-    border: 1px solid white;
+export const MoreButton = styled(PrimaryButton)`
+    background-color: black;
     color: white;
-    border-radius: 30px;
 `
 
 export const NavArrows = styled.div`
@@ -274,7 +281,7 @@ export const Content = styled.div`
 
 export const AboutTitle = styled.h1`
     font-weight: bold;
-    color: black;
+    color: var(--font-color);
     text-transform: uppercase;
     margin-bottom: 20px;
 `
@@ -322,8 +329,7 @@ export const Interest = styled.li`
     margin-bottom: 10px;
 `
 
-export const Contact = styled(Button)`
-    border: 1px solid black;
+export const Contact = styled(SecondaryButton)`
     width: 110px;
     padding: 11px;
     display: block;
