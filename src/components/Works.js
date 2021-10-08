@@ -29,6 +29,7 @@ function Works({projects}) {
                                         id={name} 
                                         name="project" 
                                         value={name} 
+                                        onChange={() => null}
                                         onClick={() => setIndex(i)}
                                         {...props}
                                     />
