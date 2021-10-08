@@ -24,7 +24,7 @@ function About({profile, skills, interests}) {
                     </InterestsText>                
                 </Content>
             </AboutSection>
-            <Contact>Contact</Contact>
+            <Contact href="mailto:mehravarj+github@gmail.com">Contact</Contact>
         </>
     )
 }
