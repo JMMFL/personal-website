@@ -12,7 +12,7 @@ function Navigation() {
                 <li><a href="mailto:mehravarj+github@gmail.com">Contact</a></li>
             </NavMenu>
             <Emblem>
-                <EmblemIcon />
+                <EmblemIcon>(^ᴗ^)</EmblemIcon>
                 <EmblemText>Jordan<br></br>Mehravar</EmblemText>
             </Emblem>
             <div style={{width: "296px", display: "flex", justifyContent: "end"}}>
