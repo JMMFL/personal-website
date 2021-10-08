@@ -7,7 +7,21 @@ export const Menu = styled.nav`
     text-transform: uppercase;
     font-size: var(--body-text);
     height: 102px;
+    margin: 0 auto;
     margin-bottom: 134px;
+
+    @media screen and (min-width: 1200px) {
+        width: 1100px;
+    }
+
+    @media screen and (min-width: 1400px) {
+        width: 1200px;
+    }
+
+    @media screen and (min-width: 1900px) {
+        width: 100%;
+    }
+}
 `
 
 export const NavMenu = styled.ul`
@@ -73,11 +87,23 @@ export const Carousel = styled.section`
     display: flex;
     justify-content: space-between;
     height: 823px;
-    width: 1589px;
+    
     border-radius: 35px;
     background-color: var(--carousel-color);
     padding: 40px;
     margin-bottom: 174px;
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+    }
+
+    @media screen and (min-width: 1400px) {
+        width: 1300px;
+    }
+
+    @media screen and (min-width: 1900px) {
+        width: 1589px;
+    }
 `
 export const ProjectInfo = styled.div`
     align-self: center;
@@ -139,10 +165,21 @@ export const ProjectPreview = styled.div`
     display: flex;
     justify-content: end;
     align-self: center;
-    width: 1102px;
     height: 737px;
     background: green;
     border-radius: 16px;
+
+    @media screen and (min-width: 1200px) {
+        width: 65%;
+    }
+
+    @media screen and (min-width: 1400px) {
+        width: 69%;
+    }
+
+    @media screen and (min-width: 1900px) {
+        width: 1102px;
+    }
 `
 
 export const Button = styled.a`
@@ -181,21 +218,47 @@ export const Arrow = styled.button`
 
 export const AboutSection = styled.section`
     display: flex;
-    width: 1460px;
     height: 1690px;
     justify-content: space-between;
+    margin: 0 auto;
     margin-bottom: 98px;
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+    }
+
+    @media screen and (min-width: 1400px) {
+        width: 1300px;
+    }
+
+    @media screen and (min-width: 1900px) {
+        width: 1460px;
+    }
 `
 
 export const LargeText = styled.h1`
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    font-size: 339px;
     text-transform: lowercase;
     font-family: var(--head-font);
     font-weight: "black";
-    line-height: 295px;
     height: 2000px;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 300px;
+        line-height: 255px;
+        margin-right: 20px;
+    }
+
+    @media screen and (min-width: 1400px) {
+        font-size: 320px;
+        line-height: 275px;
+    }
+
+    @media screen and (min-width: 1900px) {
+        font-size: 339px;
+        line-height: 295px;
+    }
 `
 
 export const Content = styled.div`
@@ -216,6 +279,7 @@ export const ProfileText = styled.p`
     line-height: 36px;
     margin-bottom: 157px;
 `
+
 export const SkillsText = styled.div`
     display: flex;
     flex-direction: row;
@@ -226,6 +290,7 @@ export const SkillsText = styled.div`
         list-style: none;
     }
 `
+
 export const Skill = styled.li`
     font-size: 24px;
     margin-bottom: 10px;

@@ -5,10 +5,8 @@
 }
 
 body {
-    width: 1500px;
     margin: 0 auto;
     padding-top: 93px;
-    padding-bottom: 139px;
 }
 
 :root {
@@ -29,4 +27,24 @@ p, h1, ul, li, a, button {
     font-family: var(--body-font);
     text-decoration: none;
     color: var(--font-color);
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body {
+        width: 1400px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    body {
+        display: flex;
+        justify-content: center;
+        width: 1500px;
+    }
 }
