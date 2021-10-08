@@ -5,7 +5,8 @@ export const projects = [
         gif: null,
         description: "Web app for checking Chess.com player stats and match history.",
         github: "https://github.com/JMMFL/checkm8-app",
-        topics: "React / Styled Components / API Requests / CSS Grid"
+        topics: "React / Styled Components / API Requests / CSS Grid",
+        image: "checkm8.png"
     },
 
     {
@@ -14,7 +15,8 @@ export const projects = [
         gif: null,
         description: "Single-player browser game inspired by Super Mario World and Flappy Bird.",
         github: "https://github.com/JMMFL/super-mario-cape",
-        topics: "ES6+ / DOM / OOP Programming / Canvas / Modules"
+        topics: "ES6+ / DOM / OOP Programming / Canvas / Modules",
+        image: "super-mario-cape.png"
     },
 
     {
@@ -23,7 +25,8 @@ export const projects = [
         gif: null,
         description: "Reponsive photography portfolio for Canadian architect Matt Mazzocchi.",
         github: "https://github.com/JMMFL/photography-portfolio",
-        topics: "Semantic HTML / CSS Flex Box / Sass / Reponsive Design"
+        topics: "Semantic HTML / CSS Flex Box / Sass / Reponsive Design",
+        image: "matt-mazzochi.png"
     },
 
     {
@@ -32,7 +35,8 @@ export const projects = [
         gif: null,
         description: "Shopify store for specialty beer boutique based in Cambridge.",
         github: null,
-        topics: "Liquid / JavaScript / CSS / Custom Cart / Custom Theme"
+        topics: "Liquid / JavaScript / CSS / Custom Cart / Custom Theme",
+        image: "old-galt-bottle-shop.png"
     }
 ];
 
