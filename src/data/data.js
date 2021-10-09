@@ -42,7 +42,7 @@ export const projects = [
         name: "old galt bottle shop", 
         link: "https://ogbottleshop.ca/", 
         gif: null,
-        description: "Shopify store for specialty beer boutique based in Cambridge.",
+        description: "Custom Shopify store for specialty beer boutique based in Cambridge.",
         github: null,
         topics: "Liquid / JavaScript / CSS / Custom Cart / Custom Theme",
         image: galtPng,
