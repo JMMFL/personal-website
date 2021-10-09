@@ -163,19 +163,19 @@ export const ProjectTopics = styled.p`
 `
 
 export const ProjectPreview = styled.div`
-    padding-right: 35px;
-    padding-top: 30px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-self: center;
     height: 737px;
     background: var(--background-color);
     background-image: url(${carousel});
-    background-size: cover;
     background-position-x: center;
     background-position-y: 0;
     border-radius: 16px;
-    
+
+    :hover > a {
+        display: flex;
+    }
 
     @media screen and (min-width: 1200px) {
         width: 65%;
@@ -187,6 +187,21 @@ export const ProjectPreview = styled.div`
 
     @media screen and (min-width: 1900px) {
         width: 1102px;
+    }
+`
+
+export const ProjectHover = styled.a`
+    display: none;
+    background: rgba(0, 0, 0, 0.8); 
+    border-radius: 16px;
+    width: 100%;
+    justify-content: center;
+
+    > p {
+        align-self: center;
+        font-size: 100px;
+        text-transform: uppercase;
+        font-weight: bold;
     }
 `
 
