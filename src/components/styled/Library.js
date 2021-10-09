@@ -154,7 +154,7 @@ export const Description = styled.p`
     line-height: var(--description-height);
     font-weight: lighter;
     height: 90px;
-    margin-bottom: 140px;
+    margin-bottom: 135px;
 `
 
 export const ProjectTopics = styled.p`
@@ -198,26 +198,22 @@ export const Button = styled.a`
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 10px;
 `
 
 export const PrimaryButton = styled(Button)`
+    padding-top: 10px;
     background: var(--button-background);
     color: var(--background-color);
 `
 
 export const SecondaryButton = styled(Button)`
+    padding-top: 9px;
     background: transparent;
     border: var(--button-stroke) solid var(--button-border);
 `
 
 export const DemoButton = styled(PrimaryButton)`
-    margin-bottom: 10px;
-`
-
-export const MoreButton = styled(PrimaryButton)`
-    background-color: black;
-    color: white;
+    margin-bottom: 15px;
 `
 
 export const NavArrows = styled.div`
