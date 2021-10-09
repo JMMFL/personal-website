@@ -61,9 +61,9 @@ function Works({projects}) {
                 <ProjectTopics>{project.topics}</ProjectTopics>
             </ProjectInfo>
             <ProjectPreview style={{backgroundPositionY: -737 * index}}>
-                <ProjectHover href={project.link}>
+                {/* <ProjectHover href={project.link}>
                     <p>Demo</p>
-                </ProjectHover>
+                </ProjectHover> */}
             </ProjectPreview>
         </Carousel>
     )
