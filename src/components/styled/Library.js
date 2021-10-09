@@ -134,7 +134,7 @@ export const Input = styled.input`
 `
 
 export const Label = styled.label`
-    opacity: 0.1;
+    opacity: 0.3;
 `
 
 export const ProjectDescription = styled.div`
