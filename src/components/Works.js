@@ -46,14 +46,15 @@ function Works({projects}) {
                 <ProjectDescription>
                         <DescriptionTitle>Description</DescriptionTitle>
                         <Description>{project.description}</Description>
+
+                        <div style={{position: "relative", left: "-5px"}}>
+                            <DemoButton href={project.link} target="_blank" rel="noreferrer">Demo<BsLightningFill size={15} style={{position: "relative", top: "3px", left: "3px"}} /></DemoButton>
+                            <MoreButton href={project.github} target="_blank" rel="noreferrer">Info<GoCode size={15} style={{position: "relative", top: "2px", left: "4px"}} /></MoreButton>
+                        </div>
                     </ProjectDescription>
                 <ProjectTopics>{project.topics}</ProjectTopics>
             </ProjectInfo>
             <ProjectPreview image={project.image} style={{backgroundPositionX: project.positionX}}>
-                <div style={{alignSelf: "start"}}>
-                    <DemoButton href={project.link} target="_blank" rel="noreferrer">Demo<BsLightningFill size={15} style={{position: "relative", top: "3px", left: "3px"}} /></DemoButton>
-                    <MoreButton href={project.github} target="_blank" rel="noreferrer">Info<GoCode size={15} style={{position: "relative", top: "2px", left: "4px"}} /></MoreButton>
-                </div>
             </ProjectPreview>
         </Carousel>
     )
