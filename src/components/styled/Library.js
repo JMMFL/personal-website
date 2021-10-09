@@ -153,6 +153,8 @@ export const Description = styled.p`
     font-size: var(--description-text);
     line-height: var(--description-height);
     font-weight: lighter;
+    height: 90px;
+    margin-bottom: 140px;
 `
 
 export const ProjectTopics = styled.p`
