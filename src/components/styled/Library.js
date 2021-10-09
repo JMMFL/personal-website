@@ -43,15 +43,9 @@ export const Emblem = styled.div`
 export const EmblemIcon = styled.h1`
     font-size: 24px;
     transform: scaleY(1.3);
-    text-align: center;
-    height: 50px;
-    width: auto;
-    border-radius: 25px;
-    padding: 10px;
-    color: var(--backgroud-color);
-    background: var(--emblem-color);
+    color: var(--font-color);
     margin: 0 auto;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 `
 
 export const EmblemText = styled.h1`
