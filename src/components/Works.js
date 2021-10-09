@@ -60,7 +60,7 @@ function Works({projects}) {
                     </ProjectDescription>
                 <ProjectTopics>{project.topics}</ProjectTopics>
             </ProjectInfo>
-            <ProjectPreview image={project.image} style={{backgroundPositionX: project.positionX}}>
+            <ProjectPreview style={{backgroundPositionY: -737 * index}}>
             </ProjectPreview>
         </Carousel>
     )

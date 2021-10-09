@@ -1,9 +1,3 @@
-import checkPng from "../images/checkm8.png";
-import galtPng from "../images/old-galt-bottle-shop.png";
-import marioPng from "../images/super-mario-cape.png";
-import mattPng from "../images/matt-mazzochi.png";
-
-
 export const projects = [
     {
         name: "checkm8", 
@@ -12,8 +6,6 @@ export const projects = [
         description: "Web app for checking Chess.com player stats and match history.",
         github: "https://github.com/JMMFL/checkm8-app",
         topics: "React / Styled Components / API Requests / CSS Grid",
-        image: checkPng,
-        positionX: "center"
     },
 
     {
@@ -23,8 +15,6 @@ export const projects = [
         description: "Single-player browser game inspired by Super Mario World and Flappy Bird.",
         github: "https://github.com/JMMFL/super-mario-cape",
         topics: "ES6+ / DOM / OOP Programming / Canvas / Modules",
-        image: marioPng,
-        positionX: "center"
     },
 
     {
@@ -34,8 +24,6 @@ export const projects = [
         description: "Reponsive photography portfolio for Canadian architect Matt Mazzocchi.",
         github: "https://github.com/JMMFL/photography-portfolio",
         topics: "Semantic HTML / CSS Flex Box / Sass / Reponsive Design",
-        image: mattPng,
-        positionX: "left"
     },
 
     {
@@ -45,8 +33,6 @@ export const projects = [
         description: "Custom Shopify store for specialty beer boutique based in Cambridge.",
         github: null,
         topics: "Liquid / JavaScript / CSS / Custom Cart / Custom Theme",
-        image: galtPng,
-        positionX: "left"
     }
 ];
 

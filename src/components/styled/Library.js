@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import carousel from "../../images/carousel.png";
 
 export const Menu = styled.nav`
     display: flex;
@@ -169,7 +170,7 @@ export const ProjectPreview = styled.div`
     align-self: center;
     height: 737px;
     background: var(--background-color);
-    background-image: url(${props => props.image});
+    background-image: url(${carousel});
     background-size: cover;
     background-position-x: center;
     background-position-y: 0;
