@@ -50,7 +50,6 @@ One of my favorite quotes is from Jim Rohn: "Formal education will
 make you a living. Self-education will make you a fortune". It 
 reminds me that life-long learning is essential to personal growth. 
 The fortune you earn is not money but who you become. 
-That's why I always look for ways to better myself. 
 `
 
 export const skills = {
@@ -65,7 +64,7 @@ export const skills = {
         "React",
         "Sass",
         "Shopify",
-        "Wordpress"
+        "WordPress"
     ],
 
     design: [
