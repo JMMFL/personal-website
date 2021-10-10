@@ -34,6 +34,8 @@ export const NavMenu = styled.ul`
 `
 
 export const Emblem = styled.div`
+    position: relative;
+    top: -15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,12 +43,11 @@ export const Emblem = styled.div`
     align-self: baseline;
 `
 
-export const EmblemIcon = styled.h1`
-    font-size: 24px;
-    transform: scaleY(1.3);
-    color: var(--font-color);
+export const Avatar = styled.img`
     margin: 0 auto;
-    margin-bottom: 17px;
+    margin-bottom: 11px;
+    width: 75px;
+    border-radius: 50px;
 `
 
 export const EmblemText = styled.h1`

@@ -1,7 +1,8 @@
 import React from "react";
+import avatarJpg from "../images/avatar.jpg";
 import { FaGithub, FaFilePdf, FaLinkedin } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
-import { Menu, NavMenu, IconMenu, Emblem, EmblemText, EmblemIcon } from "./styled/Library";
+import { Menu, NavMenu, IconMenu, Emblem, EmblemText, Avatar } from "./styled/Library";
 
 function Navigation() {
     return (
@@ -12,7 +13,7 @@ function Navigation() {
                 <li><a href="mailto:mehravarj+github@gmail.com">Contact</a></li>
             </NavMenu>
             <Emblem>
-                <EmblemIcon>(^ᴗ^)</EmblemIcon>
+                <Avatar src={avatarJpg} alt="Headshot of Jordan Mehravar." />
                 <EmblemText>Jordan<br></br>Mehravar</EmblemText>
             </Emblem>
             <div style={{width: "296px", display: "flex", justifyContent: "end"}}>
