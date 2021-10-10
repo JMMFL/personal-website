@@ -54,7 +54,7 @@ function Works({projects}) {
                         href={project.github} 
                         target="_blank" 
                         rel="noreferrer"
-                        style={{opacity: project.github ? 1 : 0.3}}
+                        style={{opacity: project.github ? 1 : 0}}
                     >Info<GoCode size={15} style={{position: "relative", top: "2px", left: "4px"}} />
                     </SecondaryButton>
                 </div>

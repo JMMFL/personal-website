@@ -239,6 +239,7 @@ export const Button = styled.a`
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
+    user-select: none;
 
     :hover {
         background: var(--button-hover);
