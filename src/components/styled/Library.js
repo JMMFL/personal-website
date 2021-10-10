@@ -159,6 +159,7 @@ export const Label = styled.label`
 
     :hover {
         opacity: 0.6;
+        cursor: pointer;
     }
 `
 
@@ -273,6 +274,10 @@ export const Arrow = styled.button`
     background: transparent;
     border: none;
     display: inline;
+
+    :hover {
+        cursor: pointer;
+    }
 `
 
 export const AboutSection = styled.section`
