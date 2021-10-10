@@ -14,6 +14,7 @@ html {
     --border-color: rgba(256, 256, 256, 0.15);
     --button-background: #fedc36;
     --button-border: #fef08a;
+    --button-hover: #2D936C;
     --button-stroke: 2px;
     --carousel-color: rgba(256, 256, 256, 0.07);
     --description-text: 24px;

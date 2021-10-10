@@ -31,6 +31,18 @@ export const NavMenu = styled.ul`
     list-style: none;
     width: 296px;
     align-self: center;
+
+    li:hover {
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
+`
+
+export const ButtonMenu = styled(NavMenu)`
+    li:hover {
+        text-decoration: none;
+        text-underline-offset: none;
+    }
 `
 
 export const Emblem = styled.div`
@@ -66,6 +78,10 @@ export const IconMenu = styled.ul`
     left: 60px;
     align-self: center;
     width: 80px;
+
+    li svg:hover {
+        color: var(--button-border);
+    }
 `
 
 export const HeaderText = styled.h1`
@@ -214,22 +230,31 @@ export const Button = styled.a`
     width: 125px;
     height: 45px;
     border-radius: 30px;
+    padding-top: 12px;
     text-align: center;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
+
+    :hover {
+        background: var(--button-hover);
+        color: white;
+        border: none;
+    }
 `
 
 export const PrimaryButton = styled(Button)`
-    padding-top: 12px;
     background: var(--button-background);
     color: var(--background-color);
 `
 
 export const SecondaryButton = styled(Button)`
-    padding-top: 11px;
     background: transparent;
     border: var(--button-stroke) solid var(--button-border);
+
+    :hover {
+        height: 43px;
+    }
 `
 
 export const DemoButton = styled(PrimaryButton)`
