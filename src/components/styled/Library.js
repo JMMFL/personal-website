@@ -62,8 +62,10 @@ export const IconMenu = styled.ul`
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
+    position: relative;
+    left: 60px;
     align-self: center;
-    width: 176px;
+    width: 80px;
 `
 
 export const HeaderText = styled.h1`

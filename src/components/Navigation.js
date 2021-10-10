@@ -1,8 +1,7 @@
 import React from "react";
 import avatarJpg from "../images/avatar.jpg";
-import { FaGithub, FaFilePdf, FaLinkedin } from "react-icons/fa";
-import { MdAlternateEmail } from "react-icons/md";
-import { Menu, NavMenu, IconMenu, Emblem, EmblemText, Avatar } from "./styled/Library";
+import { FaGithub, FaDribbble } from "react-icons/fa";
+import { Menu, NavMenu, IconMenu, Emblem, EmblemText, Avatar, SecondaryButton } from "./styled/Library";
 
 function Navigation() {
     return (
@@ -10,20 +9,19 @@ function Navigation() {
             <NavMenu>
                 <li><a href="#works">Works</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="mailto:mehravarj+github@gmail.com">Contact</a></li>
+                <li>Resume</li>
             </NavMenu>
             <Emblem>
                 <Avatar src={avatarJpg} alt="Headshot of Jordan Mehravar." />
                 <EmblemText>Jordan<br></br>Mehravar</EmblemText>
             </Emblem>
-            <div style={{width: "296px", display: "flex", justifyContent: "end"}}>
+            <NavMenu>
                 <IconMenu>
-                    <li><FaFilePdf size={26} /></li>
                     <li><a href="https://github.com/JMMFL" target="_blank" rel="noreferrer"><FaGithub size={26} /></a></li>
-                    <li><FaLinkedin size={26} /></li>
-                    <li><a href="mailto:mehravarj+github@gmail.com"><MdAlternateEmail size={26} /></a></li>
+                    <li><a href="https://dribbble.com/mehravarjojo" target="_blank" rel="noreferrer"><FaDribbble size={26} /></a></li>
                 </IconMenu>
-            </div>
+                <li><SecondaryButton href="mailto:mehravarj+github@gmail.com">Contact</SecondaryButton></li>
+            </NavMenu>
         </Menu>
     );
 }
