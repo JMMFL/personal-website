@@ -109,6 +109,8 @@ export const Carousel = styled.section`
 export const ProjectInfo = styled.div`
     align-self: center;
     width: 337px;
+    height: 725px;
+    border-bottom: 1px solid var(--border-color);
 `
 
 export const ProjectNav = styled.nav`
@@ -138,9 +140,7 @@ export const Label = styled.label`
 `
 
 export const ProjectDescription = styled.div`
-    height: 419px;
-    border-bottom: 1px solid var(--border-color);
-    margin-bottom: 34px;
+    margin-bottom: 173px;
 `
 
 export const DescriptionTitle = styled.h1`
@@ -155,11 +155,12 @@ export const Description = styled.p`
     line-height: var(--description-height);
     font-weight: lighter;
     height: 90px;
-    margin-bottom: 135px;
+    margin-bottom: 10px;
 `
 
 export const ProjectTopics = styled.p`
     font-size: 13px;
+    margin-bottom: 0px;
 `
 
 export const ProjectPreview = styled.div`
@@ -207,8 +208,8 @@ export const ProjectHover = styled.a`
 
 export const Button = styled.a`
     display: block;
-    width: 100px;
-    height: 40px;
+    width: 125px;
+    height: 45px;
     border-radius: 30px;
     text-align: center;
     font-size: 14px;
@@ -217,13 +218,13 @@ export const Button = styled.a`
 `
 
 export const PrimaryButton = styled(Button)`
-    padding-top: 10px;
+    padding-top: 12px;
     background: var(--button-background);
     color: var(--background-color);
 `
 
 export const SecondaryButton = styled(Button)`
-    padding-top: 9px;
+    padding-top: 11px;
     background: transparent;
     border: var(--button-stroke) solid var(--button-border);
 `

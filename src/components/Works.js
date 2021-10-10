@@ -46,19 +46,18 @@ function Works({projects}) {
                 <ProjectDescription>
                         <DescriptionTitle>Description</DescriptionTitle>
                         <Description>{project.description}</Description>
-
-                        <div style={{position: "relative", left: "-5px"}}>
-                            <DemoButton href={project.link} target="_blank" rel="noreferrer">Demo<BsLightningFill size={15} style={{position: "relative", top: "2px", left: "3px"}} /></DemoButton>
-                            <SecondaryButton 
-                                href={project.github} 
-                                target="_blank" 
-                                rel="noreferrer"
-                                style={{opacity: project.github ? 1 : 0.3}}
-                            >Info<GoCode size={15} style={{position: "relative", top: "2px", left: "4px"}} />
-                            </SecondaryButton>
-                        </div>
-                    </ProjectDescription>
-                <ProjectTopics>{project.topics}</ProjectTopics>
+                        <ProjectTopics>{project.topics}</ProjectTopics>
+                </ProjectDescription>
+                <div style={{position: "relative", left: "-4px"}}>
+                    <DemoButton href={project.link} target="_blank" rel="noreferrer">Demo<BsLightningFill size={15} style={{position: "relative", top: "2px", left: "3px"}} /></DemoButton>
+                    <SecondaryButton 
+                        href={project.github} 
+                        target="_blank" 
+                        rel="noreferrer"
+                        style={{opacity: project.github ? 1 : 0.3}}
+                    >Info<GoCode size={15} style={{position: "relative", top: "2px", left: "4px"}} />
+                    </SecondaryButton>
+                </div>
             </ProjectInfo>
             <ProjectPreview style={{backgroundPositionY: -737 * index}}>
                 {/* <ProjectHover href={project.link}>
