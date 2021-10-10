@@ -344,8 +344,6 @@ export const Interest = styled.li`
 `
 
 export const Contact = styled(SecondaryButton)`
-    width: 110px;
-    padding: 11px;
     display: block;
     margin: 0 auto;
     margin-bottom: 100px;
