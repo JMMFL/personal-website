@@ -9,7 +9,7 @@ function Navigation() {
             <NavMenu>
                 <li><a href="#works">Works</a></li>
                 <li><a href="#about">About</a></li>
-                <li>Resume</li>
+                <li><a href="ResumeJordanMehravar.pdf" target="_blank" rel="noreferrer">Resume</a></li>
             </NavMenu>
             <Emblem>
                 <Avatar src={avatarJpg} alt="Headshot of Jordan Mehravar." />
