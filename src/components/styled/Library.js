@@ -156,6 +156,10 @@ export const Input = styled.input`
 
 export const Label = styled.label`
     opacity: 0.3;
+
+    :hover {
+        opacity: 0.6;
+    }
 `
 
 export const ProjectDescription = styled.div`
