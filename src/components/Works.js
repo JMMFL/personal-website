@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Carousel, ProjectDescription, ProjectInfo, List, Description, DescriptionTitle, ProjectTopics, Input, Label, ProjectPreview, DemoButton, MoreButton, ProjectNav, Arrow, NavArrows, SecondaryButton, ProjectHover } from "./styled/Library";
+import { Carousel, ProjectDescription, ProjectInfo, List, Description, DescriptionTitle, ProjectTopics, Input, Label, ProjectPreview, DemoButton, ProjectNav, Arrow, NavArrows, SecondaryButton } from "./styled/Library";
 import { BsLightningFill } from "react-icons/bs";
 import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos } from "react-icons/md";
 import { GoCode } from "react-icons/go";
