@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     window.addEventListener("load", () => {
-      setStatus(false);
+      setTimeout(() => setStatus(false), 1500);
     })
   }, [])
 
